@@ -1,3 +1,3 @@
-# DevsTeam4You
+# Devs4You
 projeto site equipe
 Vamos criar um site principal que contém nosso curriculo.
