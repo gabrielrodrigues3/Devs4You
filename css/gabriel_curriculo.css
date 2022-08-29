@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    background-color:  rgb(66, 63, 128);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    height: 3125px; width: 20%;
+    color: #fff;
+    padding: 10px 0px 60px 0px;
+    overflow: hidden;
+    float: left;
+    box-sizing: content-box;
+}
+
+nav ul {
+    list-style-type:none;
+}
+
+.perfil {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.perfil h2 {
+    padding-top: 10px;
+}
+
+.perfil p {
+    font-style: italic;
+}
+
+#fotoperfil {
+    height: 220px;
+    border-style: solid;
+    border: 5px solid white;
+    border-radius: 50%;   
+}
+
+.idiomas {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.idiomas h2 {
+    margin-bottom: 20px;
+}
+
+.idiomas img {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin: 5px 10px 10px 0;
+}
+
+.idiomas ul li {
+    display: flex;
+    align-items: center;
+    line-height: 1.4rem;
+}
+
+.midias {
+    padding-top: 50px;
+    padding-left:30px;
+}
+
+.midias img {
+    height: 40px;
+    width: auto;   
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+.midias li {    /* alinhar imagem com texto */
+    display: flex;
+    align-items: center;
+}
+
+.midias ul li a { 
+    color:white;
+    text-decoration: none;
+}
+
+.midias ul li a:hover { 
+text-decoration: underline;
+}
+
+/* MAIN */
+
+main {
+    background-color: #f7f7f7;
+    text-align: right;
+    height: auto; width: 80%;
+    float: right;
+}    
+
+.cabecalho {
+    padding: 40px 30px 0px 0px;
+}
+
+.aboutme {
+    text-align: left;
+    padding: 40px 0px 0px 30px;
+}
+
+.aboutme p {
+    padding-top: 15px;
+}
+
+.divider {   /* divisor */
+    height: 2px;
+    width: 80%;
+    margin: 30px 0;
+    background: rgb(63, 50, 182);
+    background: linear-gradient(90deg, #f7f7f7, #ccc, #f7f7f7);
+}
+
+.hardskills h2 {
+    text-align: left;
+    padding: 15px 0px 0px 30px;
+}
+
+.hardskills h4 {
+    text-align: left;
+    padding-top: 40px;
+    padding: 40px 20px 0px 30px;
+    color:rgb(104, 102, 102);
+}
+
+.hardskills img {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    padding-left: 15px;
+}
+
+.container {  /* alinhar imagem com texto */
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 0px 10px;
+}
+
+.container img {
+    padding-right: 20px;
+}
+
+.container p {
+    padding: 0px 60px 0px 0px;
+}
+
+.softskills h2 {
+    text-align: left;
+    padding: 15px 0px 0px 30px;
+}
+
+.softskills img {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: auto;
+    padding-left: 15px;
+}
+
+.container2 {  /* alinhar imagem com texto */
+    display: flex;
+    align-items: center;
+    padding: 40px 0px 0px 10px;
+}
+
+.container2 img {
+    padding-right: 20px;
+    border-radius: 50%;
+}
+
+.container2 p {
+    padding: 0px 60px 0px 0px;
+}
+
+.formacao h2 {
+    text-align: left;
+    padding: 15px 0px 0px 50px;
+}
+
+.formacao ul{
+    text-align: left;
+    padding: 40px 0px 0px 50px;
+}
+
+.formacao ul li {
+    padding-bottom: 7px;
+}
+
+.experiencia {
+    text-align: left;
+}
+
+.experiencia h2 {
+    padding: 15px 0px 50px 50px;
+}
+
+.images {  /* alinhar imagem com texto */
+    display:flex;
+    align-items:center;
+    text-align:left;
+    line-height: 18px;
+}
+
+.experiencia img {
+    height: 60px;
+    padding: 10px 20px 0px 40px;
+}
+
+.experiencia ul {
+    padding: 10px 0px 80px 55px;
+}
